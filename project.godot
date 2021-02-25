@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Page Turn Demo"
-run/main_scene="res://main.tscn"
+run/main_scene="res://2dPageTurn.tscn"
 config/icon="res://icon.png"
 
 [display]
@@ -26,4 +26,5 @@ window/size/height=1080
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 environment/default_environment="res://default_env.tres"
